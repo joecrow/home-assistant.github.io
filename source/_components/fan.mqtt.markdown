@@ -85,12 +85,12 @@ payload_oscillation_on:
   description: The payload that represents the oscillation on state.
   required: false
   type: string
-  default: oscillate_on
+  default: ON
 payload_oscillation_off:
   description: The payload that represents the oscillation off state.
   required: false
   type: string
-  default: oscillate_off
+  default: OFF
 oscillation_value_template:
   description: "Defines a [template](/docs/configuration/templating/#processing-incoming-data) to extract a value from the oscillation."
   required: false
